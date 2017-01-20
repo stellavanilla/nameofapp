@@ -1,3 +1,104 @@
 // Place all the styles related to the static_pages controller here.
+
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+//index
+
+* {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  position: relative;
+  text-rendering: optimizeLegibility;
+}
+
+html, body {
+  overflow: auto;
+}
+
+body {
+  margin: 0;
+}
+
+.Site {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  height: 100%;
+  display: table;
+}
+
+.container-fluid {
+ -webkit-box-flex: 0;
+ flex: none;
+ }
+
+ .container {
+ display: table-row;
+ max-width: 100%;
+ margin: 0 auto;
+}
+
+.jumbotron {
+  -webkit-box-flex: 1;
+  flex: 1 0 auto;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 0;
+}
+
+// footer
+
+#footer {
+  padding: 1.5rem;
+  background: #222;
+  color: #999;
+  font-size: .85em;
+  text-align: center;
+}
+
+.site-footer {
+  height: 0;
+}
+
+// social buttons
+
+.social {
+line-height: 4;
+margin-bottom: 8px;
+}
+
+// img
+.img-responsive {
+  background-attachment: fixed;
+  padding-bottom: 10%;
+}
+
+// navbar
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-header, .navbar-collapse {
+	text-transform: uppercase;
+}
+
+.navbar-collapse a:hover, .navbar-header a:hover {
+  color: #ff0;
+  text-decoration: none;
+  transition: color 600ms;
+  -webkit-transition:color 600ms;
+}
+
+h1 {
+  font-family: "Lato", Arial, Helvetica, serif;
+  color: black;
+  text-align: center;
+}
+
+p {
+	text-align: center;
+}
